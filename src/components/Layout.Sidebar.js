@@ -23,7 +23,7 @@ export default class Sidebar extends Component{
             <aside class="sidebar">
                 <div class="sb-header">
                     <IMatthLogo></IMatthLogo>
-                    <div>MicroOcpp</div>
+                    <div>Go PLUS Charger</div>
                 </div>
                 <div class="divider" />
                 <SidebarItem route="status" nav={props.nav}>
@@ -43,7 +43,7 @@ export default class Sidebar extends Component{
                     <span>Connectors</span>
                 </SidebarItem>
                 <div class="divider" />
-                <SidebarItem route="network" nav={props.nav}>
+                {/* <SidebarItem route="network" nav={props.nav}>
                     <IWifi />
                     <span>Network</span>
                     <span>Demo</span>
@@ -52,7 +52,7 @@ export default class Sidebar extends Component{
                     <ILock size="24" />
                     <span>Security</span>
                     <span>Demo</span>
-                </SidebarItem>
+                </SidebarItem> */}
             </aside>
         )
     }
